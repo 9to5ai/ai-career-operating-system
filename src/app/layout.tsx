@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI Career Operating System",
+  title: "Career Signal",
   description:
-    "An adaptive, AI-native career operating system for experienced professionals navigating career uncertainty and agentic AI disruption.",
+    "A 5-minute AI-powered career clarity scan for experienced professionals navigating redundancy, career uncertainty, and AI disruption.",
 };
 
 export default function RootLayout({
@@ -26,6 +26,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      data-scroll-behavior="smooth"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
